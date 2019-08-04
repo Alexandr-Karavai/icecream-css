@@ -1,0 +1,29 @@
+body, html {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #33485F;
+}
+
+.icecream > .flavor {
+    position: relative;
+    width: 190px;
+    height: 260px;
+    border-radius: 90px 90px 10px 10px;
+    overflow: hidden;
+    background-color: sienna;
+}
+
+.icecream > .stick {
+    width: 60px;
+    height: 110px;
+    background: #E09C5F;
+    display: block;
+    margin: 0 auto;
+    border-radius: 0 0 50px 50px;
+}
